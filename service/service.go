@@ -18,12 +18,12 @@ import (
 // struct Service : is the functional representation of a distance computation
 // service. The expected REST request format is:
 //
-// http://localhost:3000/distance/id/<int>/lat1/<float>/lon1/<float>/lat2/<float>/lon2/<float>
+// http://<host>:3000/distance/id/<int>/lat1/<float>/lon1/<float>/lat2/<float>/lon2/<float>
 //
 // Future addtions (currently stubbed functionality) for the following formats will be populated:
 //
-// http://localhost:3000/distance/id/<int>/lat/<float>/lon/<float>/address/<string>
-// http://localhost:3000/distance/id/<int>/address/<string>/address/<string>
+// http://<host>:3000/distance/id/<int>/lat/<float>/lon/<float>/address/<string>
+// http://<host>:3000/distance/id/<int>/address/<string>/address/<string>
 //
 type Service struct {
     *martini.ClassicMartini
