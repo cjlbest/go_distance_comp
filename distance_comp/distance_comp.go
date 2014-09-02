@@ -1,3 +1,7 @@
+//
+// Provides a binary for running the Service, as well as an example for using the Service
+// functionality in code.
+//
 package main
 
 import (
